@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>QuickNotes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>QuickNotes</h1>
+
+        <form id="noteForm">
+
+            <input
+                id="noteInput"
+                type="text"
+                placeholder="Write a note..."
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit">
+                Add Note
+            </button>
+
+        </form>
+
+        <h2>My Notes</h2>
+
+        <ul id="notesList"></ul>
+
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
